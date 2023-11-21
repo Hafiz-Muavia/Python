@@ -1,0 +1,13 @@
+countries=("Pakistan","India","Korea")
+print(countries)
+temp1=countries
+temp=list(countries)
+temp.append("China")
+temp.pop(1)
+countries=tuple(temp)
+print(countries)
+temp1=temp1+countries
+print(temp1)
+print(temp1.count("Pakistan"))
+print(temp1.index("Pakistan"))
+print(temp1.index("Pakistan",1,4))
